@@ -40,8 +40,6 @@ It should expose an `ApiClient` class that simplifies API communication.
 
 However, API service itself will be available later.
 
-## 🧱 Requirements
-
 Here are some of the requirements that we are expecting from the solution:
 
 - Library should available both for Cypress and WebdriverIO projets to use
@@ -64,7 +62,7 @@ Each project currently has its own style for files, variable names etc. Would be
 
 - All of the testing projects have seriously lacking test coverage for the application. See if this can be improved. Currently our priority is app2
 
-# Task 03 - Organize test suites
+# Task 03 - More organization 
 
 We currently don't have any test organization. Would be nice to tide this up. Ideally to have commands to execute tests for specific features
 
