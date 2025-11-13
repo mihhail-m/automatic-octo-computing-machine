@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build:core": "cd core && npm run build",
+    "test:cypress": "cd cypress && npx cypress run",
+    "test:wdio": "cd webdriverio && npx wdio run wdio.conf.ts"
+  }
+}
+
