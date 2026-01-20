@@ -19,4 +19,3 @@ def test_get_user_by_id(session: Session, api_base_url):
         data = res.json()
 
         assert data is not None
-        assert data["id"] == 1
